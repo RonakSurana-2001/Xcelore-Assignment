@@ -28,7 +28,7 @@ function NewUserModel({ show, onClose,refreshUsers }) {
         e.preventDefault();
         console.log(info)
         try{
-            const user=await axios.post("http://localhost:4000/user/userRegister",{
+            const user=await axios.post("https://xcelore-assignment.onrender.com/user/userRegister",{
                 email:info.email,
                 password:info.password,
                 username:info.username,

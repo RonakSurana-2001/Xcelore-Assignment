@@ -25,7 +25,7 @@ function Modal({ show, onClose, userInfo,refreshUsers }) {
     const handleSubmit = async(e) => {
         e.preventDefault();
         try{
-            const user=await axios.put("http://localhost:4000/user/updateUser",{
+            const user=await axios.put("https://xcelore-assignment.onrender.com/user/updateUser",{
                 email:localStorage.getItem("email"),
                 emailupdate:userInfo.email,
                 token:localStorage.getItem("token"),

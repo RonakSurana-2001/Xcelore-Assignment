@@ -26,7 +26,7 @@ function UserDetailsComponent() {
 
   const getAllUsers = async () => {
     try {
-      const allusers = await axios.post('http://localhost:4000/user/allusers', {
+      const allusers = await axios.post('https://xcelore-assignment.onrender.com/user/allusers', {
         email: localStorage.getItem("email"),
         token: localStorage.getItem("token")
       })
@@ -52,7 +52,7 @@ function UserDetailsComponent() {
       if (element.email === localStorage.getItem("email")) {
         toast.error("Can't delete yourself");
       } else {
-        const user = await axios.delete(`http://localhost:4000/user/deleteUser`, {
+        const user = await axios.delete(`https://xcelore-assignment.onrender.com/user/deleteUser`, {
           headers: {
             email: localStorage.getItem("email"),
             token: localStorage.getItem("token"),

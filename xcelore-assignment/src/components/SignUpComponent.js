@@ -13,7 +13,7 @@ function SignUpComponent() {
 
     const handleSubmit=async()=>{
         try{
-            const user=await axios.post('http://localhost:4000/user/userRegister',{
+            const user=await axios.post('https://xcelore-assignment.onrender.com/user/userRegister',{
                 email:email.current.value,username:username.current.value,
                 password:password.current.value
             })
