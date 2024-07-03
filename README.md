@@ -18,7 +18,7 @@ functionalities, and CRUD operations on users.
 
 - User Can Register and Login
 - Admin can Add new user, delete user, view all users and update details of any user
-
+- Password Protected using Bcryt JS and Authorization using JWT
 ## Note
 - When the user registers that individual is a normal user
 - Admin has rights Make someone admin or not
