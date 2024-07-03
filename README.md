@@ -60,6 +60,11 @@ Start the Developement Server
 ```bash
 npm run dev
 ```
+## Live Site
+
+<a href="xcelore-assignment.vercel.app"/>
+
+Backend is deployed on render free plan so data fetching from backend takes time. So after you perform any action you have to wait.
 
 ## Authors
 
