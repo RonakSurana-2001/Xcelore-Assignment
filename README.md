@@ -22,6 +22,10 @@ functionalities, and CRUD operations on users.
 
 ## Video Demonstration
 
+
+https://github.com/RonakSurana-2001/Xcelore-Assignment/assets/100184606/569c622a-7294-4257-94b3-efd8a01ac8bb
+
+
 ## Note
 - When the user registers that individual is a normal user
 - Admin has rights Make someone admin or not
