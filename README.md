@@ -18,6 +18,12 @@ functionalities, and CRUD operations on users.
 
 - User Can Register and Login
 - Admin can Add new user, delete user, view all users and update details of any user
+
+## Note
+- When the user registers that individual is a normal user
+- Admin has rights Make someone admin or not
+- The all users table is just shown to admin
+- An email id-admin@mail.com and password-admin is set up of testing purposes
 ## Installation
 
 Clone the Repository
