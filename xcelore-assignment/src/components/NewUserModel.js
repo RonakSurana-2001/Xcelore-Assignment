@@ -38,6 +38,9 @@ function NewUserModel({ show, onClose,refreshUsers }) {
                 toast.success("Successfully Added")
                 refreshUsers()
             }
+            else{
+                toast.error("User Already exits or encountered some other issue")
+            }
         } catch(err){
             console.log(err)
             toast.error("Not able to Added")
