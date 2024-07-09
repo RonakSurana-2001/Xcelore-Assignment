@@ -65,7 +65,7 @@ npm run dev
 <a href="https://xcelore-assignment.vercel.app/">
 Live site</a>  
 
-Backend is deployed on render free plan so data fetching from backend takes time. So after you perform any action you have to wait.
+Backend is deployed on render and database on mongodb atlas free plan so data fetching from backend takes time. So after you perform any action you have to wait.
 
 ## Authors
 
